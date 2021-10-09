@@ -1,0 +1,201 @@
+-----------------------------------------------------------------------------
+Date: 17/08/2021 15:21:34
+File: 17_8_2021_15_21_34_2383
+Error: Run Program2
+
+Type: System.IO.FileNotFoundException
+Message: Could not load file or assembly 'MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a' or one of its dependencies. The system cannot find the file specified.
+StackTrace:    at System.ModuleHandle.ResolveMethod(RuntimeModule module, Int32 methodToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount)
+   at System.ModuleHandle.ResolveMethodHandleInternalCore(RuntimeModule module, Int32 methodToken, IntPtr[] typeInstantiationContext, Int32 typeInstCount, IntPtr[] methodInstantiationContext, Int32 methodInstCount)
+   at System.ModuleHandle.ResolveMethodHandleInternal(RuntimeModule module, Int32 methodToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveMethod(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at ConversionBack.PROTECTED_BY_MIN_SOFTWARE.InlineMethodEmitter(ILGenerator ilGenerator, OpCode opcode, BinaryReader binaryReader)
+   at ConversionBack.PROTECTED_BY_MIN_SOFTWARE.HandleOpType(Int32 opType, OpCode opcode, ILGenerator ilGenerator, BinaryReader binaryReader, Dictionary`2 _allLabelsDictionary, List`1 allLocals)
+   at ConversionBack.PROTECTED_BY_MIN_SOFTWARE.ConversionBack(Byte[] bytes, Int32 ID, Object[] parameters, MethodBase callingMethod)
+   at ConversionBack.PROTECTED_BY_MIN_SOFTWARE._PROTECTED_BY_MIN_SOFTWARE_(Int32 position, Int32 size, Int32 ID, Object[] parameters)
+   at maxcare.fIntro.InitializeComponent()
+   at maxcare.fIntro..ctor()
+   at ()
+-----------------------------------------------------------------------------
+Date: 02/09/2021 09:55:15
+File: 2_9_2021_9_55_15_9731
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault) in D:\FILE MAXCARE\FILE MAXCARE\MaxCare\MCommon\Chrome.cs:line 279
+-----------------------------------------------------------------------------
+Date: 02/09/2021 09:55:20
+File: 2_9_2021_9_55_20_4913
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault) in D:\FILE MAXCARE\FILE MAXCARE\MaxCare\MCommon\Chrome.cs:line 279
+-----------------------------------------------------------------------------
+Date: 02/09/2021 09:55:41
+File: 2_9_2021_9_55_41_2041
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault) in D:\FILE MAXCARE\FILE MAXCARE\MaxCare\MCommon\Chrome.cs:line 279
+-----------------------------------------------------------------------------
+Date: 02/09/2021 10:00:20
+File: 2_9_2021_10_0_20_3176
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault) in main.cs:line 256
+-----------------------------------------------------------------------------
+Date: 02/09/2021 10:00:23
+File: 2_9_2021_10_0_23_3932
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault) in main.cs:line 256
+-----------------------------------------------------------------------------
+Date: 02/09/2021 10:00:31
+File: 2_9_2021_10_0_31_9281
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault) in D:\FILE MAXCARE\FILE MAXCARE\MaxCare\MCommon\Chrome.cs:line 279
+-----------------------------------------------------------------------------
+Date: 02/09/2021 10:00:33
+File: 2_9_2021_10_0_33_1666
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault) in D:\FILE MAXCARE\FILE MAXCARE\MaxCare\MCommon\Chrome.cs:line 279
+-----------------------------------------------------------------------------
+Date: 02/09/2021 10:01:10
+File: 2_9_2021_10_1_10_3840
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)
+-----------------------------------------------------------------------------
+Date: 02/09/2021 10:01:13
+File: 2_9_2021_10_1_13_7609
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)
+-----------------------------------------------------------------------------
+Date: 02/09/2021 15:09:39
+File: 2_9_2021_15_9_39_4602
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)
+-----------------------------------------------------------------------------
+Date: 02/09/2021 15:09:41
+File: 2_9_2021_15_9_41_8401
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)
+-----------------------------------------------------------------------------
+Date: 02/09/2021 15:11:52
+File: 2_9_2021_15_11_52_7917
+Error: chrome.Open()
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: cannot find Chrome binary
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)
+-----------------------------------------------------------------------------
+Date: 09/10/2021 08:24:07
+File: 9_10_2021_8_24_7_4106
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 94.0.4606.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault) in D:\FILE MAXCARE\FILE MAXCARE\MaxCare\MCommon\Chrome.cs:line 279
